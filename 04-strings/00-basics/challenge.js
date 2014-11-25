@@ -3,15 +3,15 @@ module.exports.formLetter = function(firstName, senderName, message) {
 };
 
 module.exports.sliceItAndCombineIt = function(bigString, startA, endA, startB, endB) {
-  return sliceItAndCombineIt("This is a Test", 0, 4, 5, 7)
+  return 
 };
 
 module.exports.findFirstMatch = function(text, searchString) {
-
+  return text.indexOf(searchString);
 };
 
 module.exports.findLastMatch = function(text, searchString) {
-
+  return text.indexOfLast(searchString);
 };
 
 module.exports.substringBetweenMatches = function(text, searchString) {
