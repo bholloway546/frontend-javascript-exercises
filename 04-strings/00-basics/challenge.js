@@ -1,5 +1,5 @@
 module.exports.formLetter = function(firstName, senderName, message) {
-return("Hello + firstName + \n\nmessage + Sincerely, + \nsenderName")
+return "Hello + var firstName"
 };
 
 module.exports.sliceItAndCombineIt = function(bigString, startA, endA, startB, endB) {
