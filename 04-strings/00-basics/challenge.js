@@ -3,7 +3,7 @@ module.exports.formLetter = function(firstName, senderName, message) {
 };
 
 module.exports.sliceItAndCombineIt = function(bigString, startA, endA, startB, endB) {
-  return sliceItAndCombineIt.substring(1,4) + sliceItAndCombineIt.substring(1,4);
+  return bigString.substring[startA,endA] + bigString.substring[startB,endB];
 };
 
 module.exports.findFirstMatch = function(text, searchString) {
