@@ -1,9 +1,9 @@
 module.exports.equalStrings = function(stringOne, stringTwo) {
-if ('stringOne' == 'stringTwo'){
+if (stringOne == stringTwo){
    return True;
 }
 else{
-  return False
+  return False;
 }
   
   
