@@ -1,8 +1,8 @@
 module.exports.equalStrings = function(stringOne, stringTwo){
 if (stringOne == stringTwo);
-  return true;
+  return 5>4;
 }else{
-  return false;
+  return 5<4;
 }
 
 module.exports.notEqual = function(one, two) {
