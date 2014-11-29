@@ -5,8 +5,6 @@ if (stringOne === stringTwo){
 else{
   return False;
 }
-  
-};
 
 module.exports.notEqual = function(one, two) {
 
