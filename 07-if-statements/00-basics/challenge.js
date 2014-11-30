@@ -21,9 +21,11 @@ module.exports.canIGet = function(item,money){
 } else if(item="MacBook Pro" && money>1299){
   return("True");
 } else if(item="Mac Pro" && money>2499){
-  return("True")
+  return("True");
 } else if(item="Apple Sticker" && money>1){
-  return("True")
-} else(){
-  return("False")
+  return("True");
+} else;
+{
+  return("False");
+}
 }
