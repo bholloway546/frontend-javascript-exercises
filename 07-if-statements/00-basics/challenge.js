@@ -1,12 +1,12 @@
 module.exports.favoriteNumber = function(fav,guess){
   if(guess>fav){
-  return("Too High");
+  return("Too high");
 }
 else if(guess<fav){
-  return("Too Low");
+  return("Too low");
 }
   else(guess=fav);{
-   return("You Got It!"); 
+   return("You got it!"); 
   }
 }
 module.exports.checkLock = undefined;
