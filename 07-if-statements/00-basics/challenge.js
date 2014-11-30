@@ -16,13 +16,13 @@ module.exports.checkLock = function(num1,num2,num3,num4){
 }
 
 module.exports.canIGet = function(item,money){
-  if(item="MacBook Air" && money>999){
+  if (item="MacBook Air" && money>==999) {
   return("True");
-} else if(item="MacBook Pro" && money>1299){
+} else if(item="MacBook Pro" && money>==1299){
   return("True");
-} else if(item="Mac Pro" && money>2499){
+} else if(item="Mac Pro" && money>==2499){
   return("True");
-} else if(item="Apple Sticker" && money>1){
+} else if(item="Apple Sticker" && money>==1){
   return("True");
 } else;
 {
