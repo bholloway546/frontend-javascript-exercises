@@ -14,7 +14,11 @@ if(one===two){
 }
 
 module.exports.inBetween = function(lower, middle, upper) {
-
+if(middle>lower && middle<upper){
+  return 5>4
+} else{
+  return 5<4
+}
 };
 
 module.exports.outsideRanges = function(number) {
