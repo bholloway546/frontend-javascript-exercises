@@ -4,14 +4,14 @@ if (stringOne == stringTwo){
 }else{
   return 5<4;
 }
-
+}
 module.exports.notEqual = function(one, two) {
 if(one===two){
   return true;
 }else{
   return false;
 }
-};
+}
 
 module.exports.inBetween = function(lower, middle, upper) {
 
