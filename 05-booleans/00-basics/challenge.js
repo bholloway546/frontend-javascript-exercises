@@ -6,7 +6,11 @@ if (stringOne == stringTwo);
 }
 
 module.exports.notEqual = function(one, two) {
-
+if(one===two){
+  return true;
+} else {
+  return false;
+}
 };
 
 module.exports.inBetween = function(lower, middle, upper) {
