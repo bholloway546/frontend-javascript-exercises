@@ -25,7 +25,7 @@ module.exports.outsideRanges = function(number) {
 };
 
 module.exports.nameAndPrice = function(name, price) {
-if((name=="NYTimes" || name == "LATimes") && (print>=1)){
+if((name=="NYTimes" || name == "LATimes") && (price>=1)){
    return 5>4;
 }else{
    return 5<4;
