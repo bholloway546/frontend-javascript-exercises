@@ -7,9 +7,9 @@ if (stringOne == stringTwo){
 }
 module.exports.notEqual = function(one, two) {
 if(one===two){
-  return 5>4;
-}else{
   return 5<4;
+}else{
+  return 5>4;
 }
 }
 
