@@ -22,9 +22,13 @@ if(middle>lower && middle<upper){
 };
 
 module.exports.outsideRanges = function(number) {
-
+if(number>)
 };
 
 module.exports.nameAndPrice = function(name, price) {
-
+if((name=="NYTimes" || name == "LATimes") && (print>=1){
+   return 5>4;
+}else{
+   return 5<4;
+   }
 };
