@@ -1,5 +1,5 @@
 module.exports.equalStrings = function(stringOne, stringTwo){
-if (stringOne == stringTwo);
+if (stringOne == stringTwo){
   return 5>4;
 }else{
   return 5<4;
@@ -8,7 +8,7 @@ if (stringOne == stringTwo);
 module.exports.notEqual = function(one, two) {
 if(one===two){
   return true;
-} else {
+}else{
   return false;
 }
 };
